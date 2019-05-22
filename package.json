@@ -1,0 +1,27 @@
+{
+  "name": "fit2scrape",
+  "version": "1.0.0",
+  "description": "Scrapper to view news and allow comments from readers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SGeorges/Fit2Scrape.git"
+  },
+  "author": "Stefano Georges",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.5.10",
+    "morgan": "^1.9.1"
+  },
+  "bugs": {
+    "url": "https://github.com/SGeorges/Fit2Scrape/issues"
+  },
+  "homepage": "https://github.com/SGeorges/Fit2Scrape#readme"
+}
